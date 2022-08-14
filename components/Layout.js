@@ -37,7 +37,7 @@ const Layout = ({ children, home }) => {
                 className={utilStyles.borderCircle}
               />
             </Link>
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <p className={utilStyles.headingLg}>{name}</p>
           </>
         )}
       </header>
