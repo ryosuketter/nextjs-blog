@@ -19,18 +19,22 @@ const Layout = ({ children, home }) => {
       <header className={style.header}>
         {home ? (
           <>
-            <img
-              src="/images/profile.png"
+            <Image
+              src="/images/icon.png"
               alt="profile Logo"
+              width={96}
+              height={96}
               className={`${utilStyles.borderCircle} ${style.headerHomeImage}`}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
-            <img
-              src="/images/profile.png"
+            <Image
+              src="/images/icon.png"
               alt="profile Logo"
+              width={76}
+              height={76}
               className={utilStyles.borderCircle}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
