@@ -1,7 +1,7 @@
 ---
 title: "エンジニアが100記事書くまでほぼ毎日アウトプットを続けたらどれだけ成長できたのか"
 date: "2022-01-10"
-thumbnail: "/images/01-output.png"
+thumbnail: "/images/output.png"
 ---
 
 ## 概要

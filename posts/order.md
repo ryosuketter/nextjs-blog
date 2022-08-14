@@ -1,7 +1,7 @@
 ---
 title: "ASCとDESCを覚えるのが苦手な人へ。私はこれで覚えました。"
 date: "2021-12-12"
-thumbnail: "/images/02-order.png"
+thumbnail: "/images/order.png"
 ---
 
 ## 概要
