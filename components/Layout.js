@@ -28,13 +28,15 @@ const Layout = ({ children, home }) => {
           </>
         ) : (
           <>
-            <Image
-              src="/images/icon.png"
-              alt="profile Logo"
-              width={76}
-              height={76}
-              className={utilStyles.borderCircle}
-            />
+            <Link href="/">
+              <Image
+                src="/images/icon.png"
+                alt="profile Logo"
+                width={76}
+                height={76}
+                className={utilStyles.borderCircle}
+              />
+            </Link>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         )}
