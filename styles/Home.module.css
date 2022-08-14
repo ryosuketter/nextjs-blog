@@ -27,5 +27,16 @@
   max-width: 1200px;
   gap: 40px;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+@media screen and (min-width: 600px) {
+  /*　画面サイズが1200pxからはここを読み込む　*/
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
 }
